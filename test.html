@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function giveConst (a, b, c) {
+            if (a <= 16) {
+                alert ('Access Denied');
+            } else if ( a >= 16 <= 18){
+                 alert ('Have you been to a driving school')
+            } if (b == "yes") {
+                alert('proceed, but drive with a parent')
+            } else {
+                alert('access denied')
+            }  if (a >= 18) {
+                alert ('you are of age, can you drive?')
+            } if ( c == "no") {
+                alert ('Acess denied')
+            } else {
+                alert ('congrats, you can now proceed')
+            }
+        }
+        giveConst (19, "yes", "yes");
+    </script>
+</body>
+</html>
